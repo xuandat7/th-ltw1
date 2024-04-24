@@ -45,12 +45,18 @@ nav button {
     margin-left: 10px;
     cursor: pointer;
 }
-
+.email-and-btn {
+    margin-top: 20px;
+    display: flex;
+}
 .email-input {
     background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ trong suốt 50% */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 6px;
+    border-radius: 3px;
     border: 1px solid #333; /* Viền mỏng màu xám */
+    flex: 1 0 60%;
+    margin-right: 10px;
+    font-size: 18.4px;
 }
   
 .email-input input[type="email"] {
@@ -66,12 +72,13 @@ nav button {
 .get-started-btn {
     background-color: #ff0000; /* Màu đỏ */
     color: white;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     position: relative; /* Để có thể căn chỉnh mũi tên */
+    font-weight: 550;
     }
 
 .get-started-btn .arrow {
