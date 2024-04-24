@@ -48,6 +48,10 @@ nav button {
 .email-and-btn {
     margin-top: 20px;
     display: flex;
+    position: relative;
+    width: 85%;
+    align-items: center;
+    right: -58px;
 }
 .email-input {
     background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ trong suốt 50% */
