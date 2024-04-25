@@ -83,17 +83,14 @@ nav button {
     cursor: pointer;
     position: relative; /* Để có thể căn chỉnh mũi tên */
     font-weight: 550;
-    }
-
-.get-started-btn .arrow {
-    position: absolute;
-    right: 10px;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.get-started-btn-icon::after{
+    display: inline-block;
 }
 
-/* Kiểu mũi tên */
-.get-started-btn .arrow {
-    font-size: 14px;
-}
 
 .lang-btn {
 
@@ -202,6 +199,7 @@ nav button {
     padding: 10px 12%;
     text-align: center;
     font-size: 18px;
+    position: relative;
 }
 
 .faq h2 {
@@ -264,7 +262,7 @@ input[type="radio"] {
 }
 
 .faq small {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .faq .email-signup {
